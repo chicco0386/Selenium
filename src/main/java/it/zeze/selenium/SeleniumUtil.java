@@ -75,7 +75,7 @@ public class SeleniumUtil {
 			// DesiredCapabilities cap = new DesiredCapabilities();
 			// cap.setCapability(CapabilityType.PROXY, proxy);
 			// driver = new FirefoxDriver(cap);
-			String pathFirefoxBin = "/home/enrico/Scrivania/ZeZe/firefox_31.0/firefox";
+			String pathFirefoxBin = "/home/enrico/Desktop/ZeZe/firefox_31.0/firefox";
 			File firefoxBin = new File(pathFirefoxBin);
 			if (firefoxBin.exists()) {
 				System.setProperty("webdriver.firefox.bin", pathFirefoxBin);
